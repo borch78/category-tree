@@ -1,0 +1,14 @@
+{
+  "name": "category-tree",
+  "version": "1.0.0",
+  "main": "category.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Evgeniy Chernov",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
