@@ -25,7 +25,7 @@ class Category {
       this.child = childs.map(child => new Category(child.id));
     }
 
-    static findRoot(cats) {
+    static findRoot() {
       const setOfId = new Set(this.list.flatMap(cat => cat.id))
       const rootIds = this.list.filter(cat => !setOfId.has(cat.parent))
         .map(cat => cat.parent)
